@@ -17,7 +17,7 @@ console.log("Final price: $" + finalPrice);
 
 // Error 4: Comparison problem
 let score = 85;
-if (score = 85) {
+if (score = 90) {
     console.log("You got an A!");
 } else {
     console.log("Keep trying!");
