@@ -5,14 +5,14 @@
 let userName = "Student";
 
 // Error 2: Data type confusion
-let age = "25";
-let nextAge = Number(age) + 1;
+let age = 25;
+let nextAge = age + 1;
 console.log("Next year you'll be: " + nextAge);
 
 // Error 3: Operator error
 let price = 10;
 let discount = 0.2;
-let finalPrice = price - (price * discount);
+let finalPrice = price - discount
 console.log("Final price: $" + finalPrice);
 
 // Error 4: Comparison problem
