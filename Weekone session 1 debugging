@@ -12,7 +12,7 @@ console.log("Next year you'll be: " + nextAge);
 // Error 3: Operator error
 let price = 10;
 let discount = 0.2;
-let finalPrice = price - discount
+let finalPrice = price - (price * discount)
 console.log("Final price: $" + finalPrice);
 
 // Error 4: Comparison problem
