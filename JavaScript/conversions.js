@@ -3,13 +3,13 @@
 
 let temperatureCelsius = 25;
 
-let temperatureFahrenheit = (temperatureCelsius * 9/5) + 32;
+let temperatureFahrenheit = (temperatureCelsius * 9 / 5) + 32;
 
-let temperatureFahrenheitToCelsius = (temperatureFahrenheit - 32) * 5/9;
+let temperatureFahrenheitToCelsius = (temperatureFahrenheit - 32) * 5 / 9;
 
 
 
-console.log("Temperature conversion:" ,temperatureCelsius + " °C = " + temperatureFahrenheit + " °F"); 
+console.log("Temperature conversion:", temperatureCelsius + " °C = " + temperatureFahrenheit + " °F");
 console.log("Temperature conversion reversed:", temperatureFahrenheit + " °F = " + temperatureFahrenheitToCelsius + " °C");
 
 
@@ -44,5 +44,5 @@ let amountEUR = amountUSD * FixedRate;
 // Your code here
 
 // Display the result
-console.log("Currency conversion:", "$", amountUSD, "=", "€", amountEUR,"EUR");
+console.log("Currency conversion:", "$", amountUSD, "=", "€", amountEUR, "EUR");
 
