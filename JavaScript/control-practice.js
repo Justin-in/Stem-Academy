@@ -27,7 +27,7 @@ function scoreEvaluator(score) {
     }
 }
 
-function randomnum(x){
+function randomnum(x) {
     return Math.floor(Math.random() * x);
 }
 
@@ -62,6 +62,6 @@ function showMenu() {
                 console.log("Thank you for using the menu system!");
                 break;
         } while (menuChoice !== '3');
-});
+    });
 }
 showMenu();
